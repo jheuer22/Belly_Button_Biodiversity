@@ -120,7 +120,7 @@ function buildCharts(sample) {
 // Bar and Bubble charts
     var trace2 = { 
       x: otu_ids, 
-      y: sample_values, 
+      y: sample_values.reverse(), 
       text: otu_labels, 
       mode: 'markers', 
       marker:{
